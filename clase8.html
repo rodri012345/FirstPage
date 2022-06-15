@@ -23,9 +23,79 @@
             margin: 0;
             font-family: 'Quicksand', sans-serif;
         }
+        .mobile-menu{
+            padding: 24px;
+        }
+        .mobile-menu a{
+            text-decoration: none;
+            color: var(--black);
+            font-weight: bold;
+        }
+        .mobile-menu ul{
+            padding: 0;
+            margin: 24px 0 0;
+            list-style: none;
+        }
+        .mobile-menu ul:nth-child(1){
+            border-bottom: 1px   solid var(--very-light-pink) ;
+        }
+        .mobile-menu ul li{
+            margin-bottom: 24px;
+        }
+        .email{
+            font-size: var(--sm);
+            font-weight: 300 !important;
+        }
+        .sign-out{
+            color: var(--hospital-green) !important;
+            font-size: var(--sm);
+        }
+        
     </style>
 </head>
 <body>
-    
+    <div class="mobile-menu">
+        <ul>
+            <li>
+                <a href="/">CATEGORIES</a>
+            </li>
+            <li>
+                <a href="/">ALL</a>
+            </li>
+            <li>
+                <a href="/">CLOTHES</a>
+            </li>
+            <li>
+                <a href="/">ELECTRONICS</a>
+            </li>
+            <li>
+                <a href="/">FURNITURES</a>
+            </li>
+            <li>
+                <a href="/">TOYS</a>
+            </li>
+            <li>
+                <a href="/">OTHERS</a>
+            </li>
+        </ul>
+        <UL>
+            <li>
+                <a href="/">My orders</a>
+            </li>
+            <li>
+                <a href="/">My Account</a>
+            </li>
+        </UL>
+        <div class="base">
+            <UL> 
+                <li>
+                    <a href="/" class="email">usuario@ejemplo.com</a>
+                </li>
+                <li>
+                    <a href="/" class="sign-out">Sign out</a>
+                </li>
+            </UL>
+    </div>
+    </div>
 </body>
 </html>
